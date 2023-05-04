@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body,.container{
+	width:100%;
+	height:100%;
+	background-color:aqua;
+}
+.links ul{
+	display:flex;
+	flex-direction:column;
+	justify-content:left;
+	
+	height:100px;
+	width:100%;
+	list-style-type:none;
+}
+.links ul li{
+	margin:15px 15px;
+}
+.links ul li a{
+	text-decoration:none;
+	border:2px solid black;
+	padding:3px;
+}
